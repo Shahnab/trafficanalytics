@@ -11,10 +11,9 @@ scipy>=1.4.1
 torch>=1.9.1
 torchvision>=0.10.1
 tqdm>=4.41.0
-opencv_contrib_python
+#opencv_contrib_python
 opencv-python-headless
 opencv-contrib-python-headless
-libgl
 
 
 # Logging -------------------------------------
