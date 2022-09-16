@@ -2,3 +2,7 @@
 ckpt.t7 filter=lfs diff=lfs merge=lfs -text
 'ckpt.T7' filter=lfs diff=lfs merge=lfs -text
 ckpt.T7 filter=lfs diff=lfs merge=lfs -text
+.T7[[:space:]]FILE filter=lfs diff=lfs merge=lfs -text
+*.T7[[:space:]]FILE filter=lfs diff=lfs merge=lfs -text
+*.t7 filter=lfs diff=lfs merge=lfs -text
+ckpt.T7[[:space:]]FILE filter=lfs diff=lfs merge=lfs -text
