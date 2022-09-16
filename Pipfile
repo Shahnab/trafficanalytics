@@ -21,6 +21,7 @@ thop = "*"
 streamlit = "*"
 psutil = "*"
 easydict = "*"
+libgl1 = "*"
 
 [dev-packages]
 
