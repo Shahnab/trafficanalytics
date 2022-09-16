@@ -21,9 +21,7 @@ thop = "*"
 streamlit = "*"
 psutil = "*"
 easydict = "*"
-ffmpeg = "*"
-libsm6 = "*"
-libxext6 = "*"
+opencv-contrib-python
 
 [dev-packages]
 
