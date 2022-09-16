@@ -11,10 +11,10 @@ scipy>=1.4.1
 torch>=1.9.1
 torchvision>=0.10.1
 tqdm>=4.41.0
-opencv-contrib-python
-opencv-python-headless
-opencv-contrib-python-headless
-libsm6 libxext6 libxrender-dev
+opencv-contrib-python==4.1.2
+opencv-python-headless==4.1.2
+opencv-contrib-python-headless==4.1.2
+
 
 # Logging -------------------------------------
 tensorboard>=2.4.1
