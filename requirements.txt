@@ -14,6 +14,7 @@ tqdm>=4.41.0
 opencv-contrib-python
 opencv-python-headless
 opencv-contrib-python-headless
+libsm6 libxext6 libxrender-dev
 
 # Logging -------------------------------------
 tensorboard>=2.4.1
