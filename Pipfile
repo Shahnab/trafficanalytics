@@ -21,7 +21,9 @@ thop = "*"
 streamlit = "*"
 psutil = "*"
 easydict = "*"
-libgl1 = "*"
+ffmpeg = "*"
+libsm6 = "*"
+libxext6 = "*"
 
 [dev-packages]
 
