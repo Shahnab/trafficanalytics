@@ -8,7 +8,7 @@ Pillow
 PyYAML
 requests
 scipy
-torch==1.9.3
+torch==1.8.0
 torchvision
 tqdm
 #opencv_contrib_python
