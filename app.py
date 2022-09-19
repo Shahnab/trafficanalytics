@@ -16,9 +16,9 @@ def main():
      "Select input source",
      ('RTSP', 'Webcam', 'Local video'))
 
-    conf_thres = st.sidebar.text_input("Class confidence threshold", "0.25")
+    conf_thres = st.sidebar.text_input("Class confidence threshold", "0.01")
 
-    conf_thres_drift = st.sidebar.text_input("Class confidence threshold for drift dectection", "0.75")
+    conf_thres_drift = st.sidebar.text_input("Class confidence threshold for drift dectection", "0.01")
 
     fps_drop_warn_thresh = st.sidebar.text_input("FPS drop warning threshold", "8")
 
