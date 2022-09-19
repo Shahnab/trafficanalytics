@@ -22,16 +22,16 @@ def main():
 
     fps_drop_warn_thresh = st.sidebar.text_input("FPS drop warning threshold", "8")
 
-    save_output_video = st.sidebar.radio("Save output video?",('Yes', 'No'))
-    if save_output_video == 'No':
+    save_output_video = st.sidebar.radio("Save output video?",('Yes', 'No'), "No")
+    if save_output_video == 'Yes':
         nosave = False
         display_labels = False
     else:
         nosave = True
         display_labels = True
     
-    save_poor_frame = st.sidebar.radio("Save poor performing frames?",('Yes', 'No'))
-    if save_poor_frame == "No":
+    save_poor_frame = st.sidebar.radio("Save poor performing frames?",('Yes', 'No'), "No")
+    if save_poor_frame == "Yes":
         save_poor_frame__ = True
     else:
         save_poor_frame__ = False
