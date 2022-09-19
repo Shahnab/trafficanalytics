@@ -10,7 +10,7 @@ def main():
 
     inference_msg = st.empty()
     st.sidebar.title("Configuration")
-    st.sidebar.write("Demo videos- [link](shorturl.at/dgoW8)")
+    st.sidebar.markdown("Demo videos- [link](shorturl.at/dgoW8)")
 
     input_source = st.sidebar.radio(
      "Select input source",
