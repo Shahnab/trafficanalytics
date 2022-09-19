@@ -5,12 +5,12 @@ import torch
 
 def main():
     
-    #st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dentsu-logo_black.svg/2560px-Dentsu-logo_black.svg.png', width=250)
+    st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dentsu-logo_black.svg/2560px-Dentsu-logo_black.svg.png', width=250)
     st.title("Traffic Analytics for Out of Home Environment")
 
     inference_msg = st.empty()
     st.sidebar.title("Configuration")
-    #st.sidebar.markdown("Demo videos- [link](https://drive.google.com/drive/folders/1lPQyjA-7BLW9w1ybQqqaTGbUxBsjz2ax?usp=sharing)")
+    st.sidebar.markdown("Demo videos- [link](https://drive.google.com/drive/folders/1lPQyjA-7BLW9w1ybQqqaTGbUxBsjz2ax?usp=sharing)")
 
     input_source = st.sidebar.radio(
      "Select input source",
