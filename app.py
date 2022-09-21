@@ -10,7 +10,7 @@ def main():
 
     inference_msg = st.empty()
     st.sidebar.title("Configuration")
-    st.sidebar.markdown("Demo videos- [link](https://drive.google.com/drive/folders/1lPQyjA-7BLW9w1ybQqqaTGbUxBsjz2ax?usp=sharing)")
+    st.sidebar.markdown("Demo videos for uploading- [link](https://drive.google.com/drive/folders/1lPQyjA-7BLW9w1ybQqqaTGbUxBsjz2ax?usp=sharing)")
 
     input_source = st.sidebar.radio(
      "Select input source",
