@@ -5,7 +5,7 @@ import torch
 
 def main():
     
-    st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dentsu-logo_black.svg/2560px-Dentsu-logo_black.svg.png', width=250)
+    #st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dentsu-logo_black.svg/2560px-Dentsu-logo_black.svg.png', width=250)
     st.title("Traffic Analytics for Out of Home Environment")
 
     inference_msg = st.empty()
